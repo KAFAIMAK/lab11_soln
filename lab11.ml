@@ -170,10 +170,10 @@ let exercise2b =
 Exercise 2c
 ....................................................................*)
 
-(* Of the possible values `1`, `hd * 2`, `hd * 3`, `4`, only `hd * 2`
-   could evaluate to `42`. Therefore, `setup` must be a tuple of
-   an empty list and a non-empty list. The non-empty list must have
-   `21` as the head. *)
+
+(* Of the possible values `1`, `hd * 2`, `hd * 3`, `4`, `hd * 2` or
+   `hd * 3` could evaluate to `42`. Therefore, `setup` must be a tuple
+   of two lists, one of which is empty. A possible solution is: *)
 
 let _______________ = [], [21] ;;
 
